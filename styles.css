@@ -9,17 +9,18 @@
 
 .app-container {
     width: 500px;
-    height: 480px;
+    height: 510px;
     border: 1px solid black;
     margin: 12px;
     display: flex;
     flex-direction: column;
+
 }
 
 .expression-screen {
     display: flex;
     align-self: center;
-    padding: 24px 24px 0;
+    padding: 24px;
 }
 
 input {
@@ -32,10 +33,26 @@ input {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background-color: rgb(149, 149, 151);
+    flex: 1;
+}
+
+button:hover {
+    background-color: aquamarine;
+    color: black;
 }
 
 button {
     width: 81px;
     padding: 18px;
     margin: 8px;
+    color: blue;
+    cursor: pointer;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -1,8 +1,12 @@
-
+const input = document.querySelector('input');
 const btn = document.querySelectorAll('button');
-btn.addEventListener(
-    'click', (e) => {
-        console.log('clicked')
-    }
+
+for(let b of btn) {
+    b.addEventListener(
+        'click',
+        (e) => input.textContent = b.textContent
         
-)
+    )
+}
+
+
