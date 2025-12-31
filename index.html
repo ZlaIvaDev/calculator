@@ -4,10 +4,40 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calculat0r</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
+        <h2>Znam sta ste radili proslog leta</h2>
 
+        <div class="app-container">
+            <div class="expression-screen">
+                <input>
+            </div>
+            <div class="buttons">
+                <button>(</button>
+                <button>)</button>
+                <button>%</button>
+                <button>AC</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>/</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>x</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>-</button>
+                <button>0</button>
+                <button>.</button>
+                <button>=</button>
+                <button>+</button>
+                
+            </div>
+        </div>
 
 
         <script src="javascript.js"></script>
@@ -15,3 +45,19 @@
 
 </html>
 
+<!--
+dakle ideja je sledeca,
+imamo kontejner gde cemo smestiti calc.
+-> expression screen je gde ide unos brojeva i operacija.
+-> buttons je deo gde ubacujemo dugmad sa svim funkcionalnostima.
+sto se tice dugmadi, imacemo jedan event listener,
+i cases, obnovi to hehe..
+
+dugmad, da li staviti njih 16 u jedan kontejner <buttons> ili
+    5 sub kontejnera <button-rows> ?
+sve u svemu bice potrebana rad sa flex vboxom !
+
+
+
+
+-->
